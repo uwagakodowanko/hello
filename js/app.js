@@ -1,5 +1,5 @@
 function changeTitle() {
-    const message = "Kaczka?";
+    const message = "Kodowanko?";
     let original;
 
     window.addEventListener("focus", function() {
