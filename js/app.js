@@ -17,8 +17,24 @@ function changeTitle() {
     })
 }
 
+function showText() {
+    const duck = document.querySelector(".duck");
+    let counter = 0;
+
+    duck.addEventListener("click", function() {
+        counter++;
+
+        if(counter < 5) {
+            console.log("Hello! I'm Rubber Ducky. Do you need help?");
+        } else {
+            console.log("Hey! Stop it!");
+        }
+    })
+}
+
 const init = function() {
     changeTitle();
+    showText();
 };
 
 document.addEventListener("DOMContentLoaded", init);
