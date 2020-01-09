@@ -215,9 +215,9 @@ body {
 
 .links-item:hover {
     background-color: rgba(255, 255, 255, 0.2);
-    background-image: -o-radial-gradient(circle, #272727 1%, transparent 35%), -o-radial-gradient(circle, #272727 1%, transparent 35%);
+    /* background-image: -o-radial-gradient(circle, #272727 1%, transparent 35%), -o-radial-gradient(circle, #272727 1%, transparent 35%);
     background-image: radial-gradient(circle, #272727 1%, transparent 35%), radial-gradient(circle, #272727 1%, transparent 35%);
-    background-size: 4px 4px;
+    background-size: 4px 4px; */
 }
 
 .links-item span {
