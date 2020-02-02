@@ -28,6 +28,20 @@ body {
     animation-timing-function: ease-in;
 }
 
+.sr-only {
+    border: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    -webkit-clip-path: inset(50%) !important;
+    clip-path: inset(50%) !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    margin: -1px !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+    white-space: nowrap !important;
+}
+
 /* header */
 .header {
     margin-bottom: 1.5rem;
@@ -55,11 +69,6 @@ body {
 /* avatar */
 .avatar {
     margin-bottom: 2rem;
-}
-
-.hide-header {
-    font-size: 1px;
-    color: #272727;
 }
 
 .avatar-wrapper {
@@ -238,7 +247,6 @@ body {
 
 /* media queries*/
 @media only screen and (min-width: 990px) {
-
     /* header */
     .header {
         margin-bottom: 2.5rem;
